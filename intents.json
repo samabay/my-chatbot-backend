@@ -1,0 +1,212 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good morning",
+                "Is anyone there?",
+                "أهلاً",
+                "مرحباً",
+                "السلام عليكم"
+            ],
+            "responses": [
+                "Hello! I am your Train Assistant. How can I help you today?",
+                "Hi there! Need help with train schedules or prices?",
+                "Welcome! I can assist you with checking fares or tracking schedules."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "مع السلامة",
+                "وداعاً"
+            ],
+            "responses": [
+                "Goodbye! Have a safe journey.",
+                "Thanks for using our service. See you soon!",
+                "Safe travels! Let me know if you need anything else."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "شكراً",
+                "يعطيك العافية"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure. Do you have any other questions?"
+            ]
+        },
+        {
+            "tag": "seat_prices",
+            "patterns": [
+                "How much is a seat?",
+                "What are the ticket prices?",
+                "what are seat prices",
+                "Seat prices",
+                "ticket price",
+                "ticket prices",
+                "price of ticket",
+                "price of tickets",
+                "price of seat",
+                "price of seats",
+                "price for Talgo train",
+                "price for VIP train",
+                "price for AC train",
+                "price for Economy train",
+                "Price for Talgo train",
+                "Check ticket price",
+                "How much is a ticket to Aswan?",
+                "ticket price to Alexandria",
+                "Check price",
+                "كم سعر التذكرة؟",
+                "ما هي أسعار المقاعد؟"
+
+            ],
+            "responses": [
+                "Ticket prices depend on the train type. Talgo: 500 EGP, VIP: 300 EGP, AC: 200 EGP, Economy: 100 EGP.",
+                "Our fares vary by class. Would you like to check a specific train type?",
+                "Prices start from 100 EGP for Economy up to 500 EGP for Talgo."
+            ]
+        },
+        {
+            "tag": "available_trains",
+            "patterns": [
+                "Show me available trains",
+                "What trips are available?",
+                "Available seats from Alexandria",
+                "show me trains for today",
+                "available trains tomorrow",
+                "available trains for today",
+                "available trains for tomorrow",
+                "what's the schedule for today?",
+                "find a trip",
+                "trips today",
+                "trips tomorrow",
+                "trip for today",
+                "trip for tomorrow",
+                "show me trips",
+                "search for trips",
+                "available trips for today",
+                "available trips for tomorrow",
+                "how can i find a trip",
+                "get me trips for tomorrow",
+                "ما هي القطارات المتاحة؟",
+                "هل يوجد رحلات غداً؟",
+                "رحلات اليوم",
+                "قطارات الغد",
+                "ابحث عن رحلة",
+                "رحلات لغدا"
+            ],
+            "responses": [
+                "I can list the available trains for you.",
+                "Let me check the schedule for that date.",
+                "Searching for available trips..."
+            ]
+        },
+        {
+            "tag": "schedule_info",
+            "patterns": [
+                "When does the train leave?",
+                "What is the arrival time?",
+                "Departure time for trip 3001",
+                "What are the stops?",
+                "What are the stops for trip 3003",
+                "intermediate stops for trip 3372",
+                "show me the route",
+                "full station list",
+                "where does trip 3372 stop?",
+                "متى موعد التحرك؟",
+                "متى يصل القطار؟",
+                "ما هي المحطات؟",
+                "قائمة المحطات للرحلة",
+                "خط السير"
+            ],
+            "responses": [
+                "I can provide the exact departure and arrival times. Please provide the Trip ID or route.",
+                "Checking the schedule... Which trip are you asking about?",
+                "Our trains follow a strict schedule. Tell me your Trip ID to get the times."
+            ]
+        },
+        {
+            "tag": "fare_calculation",
+            "patterns": [
+                "Calculate the fare",
+                "How much will it cost to go to Aswan?",
+                "Total price for 2 adults",
+                "how much for tickets",
+                "calculate price",
+                "احسب لي التكلفة",
+                "كم يكلف الذهاب إلى أسوان؟"
+            ],
+            "responses": [
+                "I can calculate the total fare for you. Please tell me the route and number of passengers.",
+                "Fares are calculated based on distance and class. Where are you traveling to?",
+                "Give me your travel details, and I'll give you a price estimate."
+            ]
+        },
+        {
+            "tag": "travel_time",
+            "patterns": [
+                "How long is the trip?",
+                "how long it takes for trip 3002",
+                "Travel time from Cairo to Luxor",
+                "How many hours to reach Alexandria?",
+                "estimated arrival for trip 3372",
+                "when will it arrive?",
+                "how much time it takes?",
+                "arrival time for trip 3372",
+                "كم تستغرق الرحلة؟",
+                "كم ساعة من القاهرة إلى الإسكندرية؟",
+                "وقت الوصول المتوقع",
+                "كم تأخذ الرحلة من وقت؟"
+            ],
+            "responses": [
+                "The travel time varies. For example, Cairo to Luxor takes about 9 hours.",
+                "I can calculate the duration for you. Which route are you interested in?",
+                "It usually takes between 2 to 10 hours depending on the destination."
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "Weather",
+                "Food",
+                "Politics",
+                "cats",
+                "how to get a cat",
+                "How are you?",
+                "Tell me a joke",
+                "What is your name?",
+                "Are you a robot?",
+                "Can you help me with homework?",
+                "How to bake a cake",
+                "How to cook",
+                "Tell me about movies",
+                "I want to play a game",
+                "What is the meaning of life?",
+                "Who is the president?",
+                "How do I fix my car?",
+                "ما هي حالة الطقس؟",
+                "أنا جائع",
+                "نكتة من فضلك",
+                "كيف اطبخ؟",
+                "من هو الرئيس؟"
+            ],
+            "responses": [
+                "It is not within my role."
+            ]
+        }
+    ]
+}
